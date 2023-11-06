@@ -1,0 +1,16 @@
+@import "styles/_reset";
+@import "styles/_variables";
+@import "styles/_mixins";
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: Ubuntu, sans-serif;
+   background: #00f;
+}
+a {
+   text-decoration: none;
+   color: $black;
+}
+
+//example @import "styles/_filter";
